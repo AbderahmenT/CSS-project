@@ -1,0 +1,209 @@
+
+<link rel="stylesheet" href="/style.css">
+
+to link html with css
+------------------------------------------------
+@import url(link of the font "police")
+
+-->to import the font 
+ 
+tag{
+    font-family: "paste the fonts name here"
+}
+
+-------------------------------------------------
+body{
+    background-color: lightblue;
+}
+
+to color the background
+
+--------------------------------------------------
+
+
+
+
+
+--------------------------------------------------
+h1 {
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+
+type selector(by the name of the tag)
+
+---------------------------------------------------
+.title{
+    color:blue
+  }
+
+class selector(by ."the name of the class")
+
+---------------------------------------------------
+#blue-bordered {
+    border: 5px dashed blue;
+}
+
+ID selector(by using #"the name of the ID")
+
+---------------------------------------------------
+.box p {
+    color: red;
+}  
+
+Descendant Combinator
+
+---------------------------------------------------
+h1, h2, p {
+    text-decoration: underline;
+}
+
+how to select many tags
+----------------------------------------------------
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+we use ">p" to sat that we want the paragragh in the div colored
+
+Child Combinator
+
+---------------------------------------------------
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}  
+we use h1+p to say that all near them selves paragraphs "p" after h1 must be designed
+
+Adjacent Sibling Combinator
+
+---------------------------------------------------
+h1 ~ p {
+    font-weight: bold;
+    background-color:red;
+    color: #fff;
+    padding: .5em;
+}
+we use h1+p to say that all paragraphs "p" after h1 must be designed
+
+General Sibling Combinator
+
+---------------------------------------------------
+how to color link or button when touched or clicked or visited 
+ 
+/* unvisited link */
+a:link {
+color: tomato;
+}
+---------------------
+/* visited link */
+a:visited {
+    color: tomato;
+}
+---------------------
+/* mouse over element */
+div:hover {
+    color: tomato;
+} 
+---------------------
+/* selected link */
+a:active{
+    color: #0000FF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; (police)
+    font-size: 50px;                      (epaisseur)
+    font-style: italique ;                (type du text)
+    background-image: url();              (make an image for the background)
+    background-repeat: no-repeat;         (to do not repeat the packgrout)
+    background-size: cover;               (for the image to cover all the background) 
+}
+-----------------------------------------------------
+.box {
+    padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+  }
+
+We use the padding property to create spacing between an element’s content area and border.
+
+padding
+
+-----------------------------------------------------
+.box {
+    margin: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+  }
+ defines the placesv of the box 
+
+ margin
+
+ ----------------------------------------------------
+ h1{
+    border-width: 50px; (eppaisseur of the border)
+    border-style: solid; (type of the border)
+    border-color: aquamarine; (color of the border)
+    border-radius:40% (to change the shape to a circle)
+    padding:50px; (the padding)
+    margin: 60px; (the margin)
+    height: 100px; (the height)
+    width: 500px; (the width)
+    display: none; (do not appear in the web page)
+ }
+-----------------------------------------------------
+*{
+    margin: 80;
+    padding: 40;
+}
+
+to determine the margin and the padding for all things
+
+-----------------------------------------------------
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+to tell that the image mustn't depass the parent folder
+
+-----------------------------------------------------
+first-line {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+  }
+
+spacing between letters and words
+
+-----------------------------------------------------
+html
+<p> one p
+p two p
+p three p
+
+css
+
+p {
+    display: inline;
+  }
+
+to display things in the same line
+
+-----------------------------------------------------
+/* gggggggggggggggggggggggggggg*/ comment
+
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
